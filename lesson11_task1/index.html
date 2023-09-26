@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JedAcademy Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column1">
+                <h1>Qeydiyyatdan keçin</h1>
+                <p class="register">İstədiyiniz kursu seçin və şəxsi məlumatlarınızı daxil edin. Ən qısa zamanda
+                    sizinlə əlaqə saxlayacağıq.</p>
+                <img src="./images/register.png" alt="registration icon">
+            </div>
+            <div class="column2">
+                <form action="">
+                    <span>Kursu seçin</span><br>
+                    <select name="courses" id="course">
+                        <option value="0">Kursu seçin</option>
+                        <option value="1">Front-End proqramlaşdırma kursu</option>
+                        <option value="2">#C .NET ilə Back-End proqramlaşdırma kursu</option>
+                        <option value="3">Python Django ilə Back-End proqramlaşdırma kursu</option>
+                        <option value="4">Fullstack MERN proqramlaşdırma kursu</option>
+                        <option value="5">Front-End təcrübə proqramı</option>
+                        <option value="6"> Uşaqlar üçün IT Bootcamp kursu</option>
+                        <option value="7">Fullstack PHP proqramlaşdırma kursu</option>
+                        <option value="8">PHP Laravel ilə Back-End proqramlaşdırma kursu</option>
+                        <option value="9">IT HelpDesk kursu</option>
+                    </select> <br>
+                    <label for="fullname"> Adınız və soyadınız</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Ad Soyad" value=""><br>
+                    <label for="email">Emailiniz</label><br>
+                    <input type="email" id="email" name="mail" placeholder="example@gmail.com" value=""><br>
+                    <label for="contact">Əlaqə nömrəniz</label><br>
+                    <input type="text" id="contact" name="phone" placeholder="0111111111" value=""><br>
+                    <label for="time">Zəng üçün sizə uyğun olan vaxtı seçin</label><br>
+                    <input type="time" id="timer" name="time" placeholder="11:00 AM" value="11:00 AM"> <br> <br>
+                    <button type="submit">Qeydiyyat</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

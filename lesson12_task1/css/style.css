@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7bed89;
+}
+
+.avatar {
+    background-color: black;
+    width: 280px;
+    height: 320px;
+    margin: 100px auto;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.face {
+    background-color: #f0b786;
+    width: 160px;
+    height: 180px;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    position: absolute;
+    left: 60px;
+    top: 110px;
+    z-index: 2;
+}
+
+.neck {
+    background-color: #f0b786;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    left: 120px;
+    top: 250px;
+    z-index: 3;
+}
+
+.eyebrow1,
+.eyebrow2 {
+    background-color: #f0b786;
+    width: 60px;
+    height: 10px;
+    border-radius: 60%;
+    border: 4px solid #000;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    z-index: 4;
+}
+
+.eyebrow1 {
+    left: 65px;
+    top: 140px;
+}
+
+.eyebrow2 {
+    left: 155px;
+    top: 140px;
+}
+
+.eye1,
+.eye2 {
+    background-color: #fff;
+    width: 50px;
+    height: 16px;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    position: absolute;
+    z-index: 4;
+    border-top: 6px solid black;
+}
+
+.eye1 {
+    left: 70px;
+    top: 160px;
+}
+
+.eye2 {
+    left: 160px;
+    top: 160px;
+}
+
+.pupil1,
+.pupil2 {
+    background-color: #000;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+}
+
+.pupil1 {
+    left: 176px;
+    top: 162px;
+}
+
+.pupil2 {
+    left: 86px;
+    top: 162px;
+}
+
+.nose {
+    background-color: #f0b786;
+    border: 2px solid #db9f6b;
+    width: 40px;
+    height: 20px;
+    border-radius: 70%;
+    position: absolute;
+    left: 120px;
+    top: 202px;
+    z-index: 6;
+    border-top: none;
+}
+
+.nostril1,
+.nostril2 {
+    background-color: #db9f6b;
+    width: 10px;
+    height: 4px;
+    border-radius: 90%;
+    border: 1px solid #c48d5e;
+    position: absolute;
+    z-index: 8;
+}
+
+.nostril1 {
+    left: 125px;
+    top: 215px;
+}
+
+.nostril2 {
+    left: 143px;
+    top: 215px;
+}
+
+.mouth {
+    background-color: #802509;
+    width: 50px;
+    height: 20px;
+    border-radius: 90%;
+    position: absolute;
+    left: 116px;
+    top: 240px;
+    z-index: 6;
+}
+
+.lipline {
+    background-color: #5e1a06;
+    width: 48px;
+    height: 2px;
+    position: absolute;
+    left: 117px;
+    top: 248px;
+    z-index: 7;
+
+}
